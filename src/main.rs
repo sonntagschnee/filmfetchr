@@ -13,7 +13,7 @@ fn main() {
     if matches.opt_present("version") {
         const VERSION: &str = env!("CARGO_PKG_VERSION");
 
-        println!("schmergles {}", VERSION);
+        println!("filmfetchr {}", VERSION);
         println!("Copyright (C) 2023 Lukas Jonathan Gutschmidt");
         println!("License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>");
         println!("There is NO WARRANTY, to the extent permitted by law.");
